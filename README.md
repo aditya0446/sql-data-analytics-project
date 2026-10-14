@@ -7,7 +7,7 @@ Key outcomes: product/category ranking,
               customer segmentation, and a clear business insight — Bikes drive 96.46% of revenue.
 
 
-- Strong data modeling: designed a star schema with a clear fact grain (one row per customer–product–order transaction) for high-fidelity analytics.
+- Used a star schema with a clear fact grain (one row per customer–product–order transaction) for high-fidelity analytics.
 - Advanced SQL: large-scale joins, CTEs, window functions (running totals, ranking), aggregates, and segmentation.
 - Business impact: identified high-concentration revenue drivers and customer segments that can inform pricing, inventory, and marketing.
 
@@ -21,10 +21,7 @@ Solution overview
 - Grain: One row = one customer × one product × one order (transaction-level)
 - Analyses included: YoY growth, running totals, product/category ranking, customer segmentation, and category contribution
 
-Key files to review
-- star_schema.sql — DDL for fact & dimension tables and grain definition
-- analysis_queries.sql — T‑SQL queries for ranking, running totals, YoY, and segmentation
-- results/ — sample output CSVs / visual snapshots (if included)
+
 
 
 Technologies & skills
